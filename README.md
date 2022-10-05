@@ -1,15 +1,20 @@
 # QOSF_quantumMultiplier
 Quantum circuit implementation of multiplication of two positive integers
+--------------------------------------------------------------------
 
 The codebase for quantum multiplier, consists of two code files: QuantumUtil, and QuantumMultiplier
 QuantumUtil contains utility functions and this module(file) would be imported into QuantumMultiplier.
 
-QuantumMultiplier contains the main functions named q_multiplier_with_user_input() and q_multiplier(decimal_num1, decimal_num2).
+QuantumMultiplier contains the main functions named
+q_multiplier_with_user_input() and q_multiplier(decimal_num1, decimal_num2).
+-------------------------------------------------------------------
 These two functions perform multiplication, and implementation of these two functions consist of invoking one or more functions from QuantumUtil.
------------------------------------------------------------
+
+
 This is my first ever quantum code.
 
 Open Questions(that I am yet to research):
+---------------------------------------------
 -> Is creating quantum circuit multiple times for implementing the multiplication algorithm using repeatitive addition, expensive? Would QFT eliminate this problem and be more efficient?
 
 --> With the current implementation of adder, for adding 2 numbers of n bits, I am using 4n+1 qubits(including the classical register), and n*4 logic gates.
