@@ -6,6 +6,7 @@ The codebase for quantum multiplier, consists of two code files: QuantumUtil, an
 QuantumUtil contains utility functions and this module(file) would be imported into QuantumMultiplier.
 
 QuantumMultiplier contains the main functions named
+
 q_multiplier_with_user_input() and q_multiplier(decimal_num1, decimal_num2).
 -------------------------------------------------------------------
 These two functions perform multiplication, and implementation of these two functions consist of invoking one or more functions from QuantumUtil.
