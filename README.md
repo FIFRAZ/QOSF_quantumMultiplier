@@ -1,4 +1,4 @@
-# QOSF_quantumMultiplier
+# Quantum Multiplier
 Quantum circuit implementation of multiplication of two positive integers
 --------------------------------------------------------------------
 
